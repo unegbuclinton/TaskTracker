@@ -17,7 +17,7 @@ const AddTask = ( { onAdd}) => {
         onAdd ({ text, day, reminder})
 
         setText('')
-        setDay('')
+        setDay('');
         setReminder(false)
         
     }
